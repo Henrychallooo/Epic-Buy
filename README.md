@@ -31,3 +31,4 @@ iii. Order delivery tracking with real-time delivery driver's location on a map 
 iv.	Delivery request feature for sellers to request deliveries to delivery drivers in the sell page.
 v. Driver's profile creation and editing in the driver page. 
 vi.	Shopping Assistant Chatbot for products recommendations and queries based on conversations in the discover page.
+"# Epic-Buy-Shopping" 
