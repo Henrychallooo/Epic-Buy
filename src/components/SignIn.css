@@ -1,0 +1,103 @@
+/* Add keyframes for the loading animation */
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.signinContainer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../images/back.png');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff; /* Text color */
+  font-size: 1rem; /* Adjust font size */
+}
+
+.signinContainer__box {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #00000000 ; /* Darker border color */
+  border-radius: 20px;
+  background-color: #00000000; /* Darker background color */
+  margin-right: 40px; 
+  margin-top: -280px; 
+}
+
+.signinContainer__box__inner {
+  text-align: center;
+  font-size: 0.5rem; /* Adjust font size */
+}
+
+.signinContainer__box h1 {
+  margin-bottom: 20px;
+  color: #ffffff; 
+}
+
+.signinContainer__box__form input {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #d3d3d3 ; /* Darker border color */
+  border-radius: 5px;
+  background-color: #f1f1f1; 
+  color: #242424; /* Text color */
+  font-size: 1rem; /* Adjust font size */
+}
+
+.signinContainer__box__form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #cc0000; /* Button color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signinContainer__box__form button:hover {
+  background-color: #bd0000; /* Darker button color on hover */
+}
+
+.signinContainer__box__form button:disabled {
+  opacity: 0.2; /* Reduced opacity when button is disabled */
+}
+
+/* Add loading animation styles */
+.loading::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: loading 0s linear infinite; /* Apply the loading animation */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signinContainer__box__signup {
+  margin-top: 20px;
+  color: #ffffff; 
+  font-size: 1rem; /* Adjust font size */
+}
+
+.signinContainer__box__signup a {
+  color: #ff0000; /* Link color */
+  text-decoration: none;
+}
+
+.signinContainer__box__signup a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+

@@ -1,0 +1,206 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.requests, .info {
+  width: 45%;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.request {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.request-info {
+  flex-grow: 1;
+}
+
+.request-accept button {
+  padding: 10px 20px;
+  background-color: #00b65b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.request-accept button:hover {
+  background-color: #009e4f;
+}
+
+.request-reject button {
+  padding: 10px 20px;
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.request-reject button:hover {
+  background-color: #bd0000;
+}
+
+.track-delivery {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.track-delivery-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px;
+  max-height: 100%;
+  margin-top: 20px;
+}
+
+.track-delivery-content h3 {
+  margin-top: 0;
+}
+
+.track-delivery-content button {
+  background: #cc0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.track-delivery-content button:hover {
+  background-color: #bd0000;
+}
+
+.close {
+  position: absolute;
+  top: 70px;
+  right: 240px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #242424;
+}
+
+.close:hover {
+  color: #000000;
+}
+
+.driver-info {
+  margin-top: 20px;
+  margin-left: 320px;
+}
+
+.driver-info p {
+  margin: 5px 0;
+}
+
+.driver-info img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 1px solid #f1f1f1;
+}
+
+.driver-info button {
+  background: #cc0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.driver-info button:hover {
+  background-color: #bd0000;
+}
+
+.edit-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.edit-modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  max-height: 80%;
+  overflow-y: auto;
+  margin: 20px 0; /* Space at the top and bottom */
+}
+
+.edit-modal-content label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.edit-modal-content input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.edit-modal-content button {
+  background: #cc0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.edit-modal-content button:hover {
+  background-color: #bd0000;
+}
+
+.edit-modal-content button:nth-child(2) {
+  background: #cc0000;
+}
+
+.edit-modal-content button:nth-child(2):hover {
+  background-color: #bd0000;
+}

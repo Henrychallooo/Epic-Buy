@@ -1,0 +1,120 @@
+/* Add keyframes for the loading animation */
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.signupContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../images/back.png');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff; /* Text color */
+  font-size: 0.5rem; /* Adjust font size */
+}
+
+.signupContainer__box {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #00000000 ; /* Darker border color */
+  border-radius: 20px;
+  background-color: #00000000; 
+  margin-right: -980px;
+  margin-top: -200px;  
+}
+
+
+.signupContainer__box__inner {
+  text-align: center;
+}
+
+.signupContainer__box h1 {
+  margin-bottom: 20px;
+  color: #fff; 
+}
+
+.signupContainer__box__form input,
+.signupContainer__box__form select {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #f1f1f1; /* Darker border color */
+  border-radius: 5px;
+  background-color: #f1f1f1; /* Darker background color */
+  color: #242424b2; /* Text color */
+  font-size: 1rem; /* Adjust font size */
+}
+
+.signupContainer__box__form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #cc0000; /* Button color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px; /* Add margin below the signup button */
+}
+
+.signupContainer__box__form button:hover {
+  background-color: #bd0000; /* Darker button color on hover */
+}
+
+.signupContainer__box__form button:disabled {
+  opacity: 0.2; /* Reduced opacity when button is disabled */
+}
+
+/* Add loading animation styles */
+.loading::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: loading 0s linear infinite; /* Apply the loading animation */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signupContainer__box__signin {
+  margin-top: 20px; /* Add margin above the signin link */
+  color: #fff; 
+  font-size: 1rem; /* Adjust font size */
+}
+
+.signupContainer__box__signin a {
+  color: #ff0000; /* Link color */
+  text-decoration: none;
+}
+
+.signupContainer__box__signin a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.success-message {
+  margin-bottom: 20px;
+}
+
+.success-message p {
+  color: #00ff00; /* Green color for success message */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.success-message .user-email {
+  color: #888; /* Grey color for user email */
+  margin-top: 10px;
+  font-size: 14px;
+}

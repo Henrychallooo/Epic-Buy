@@ -1,0 +1,290 @@
+.mystore-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Adjust width as needed */
+  max-width: 800px; /* Max width for responsiveness */
+  margin: 0 auto; /* Center the profile */
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+  margin-top: 25px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 50px;
+  object-fit: cover;
+  border: 1px solid #f1f1f1;
+}
+
+.profile-info {
+  margin-left: 60px;
+  flex: 1;
+}
+
+.profile-info h3 {
+  font-size: 1.5rem; /* Increased font size */
+  margin-bottom: 10px;
+}
+
+.profile-info p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.profile-stats {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.profile-stats span {
+  margin-right: 20px;
+}
+
+.profile-stats strong {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.profile-buttons {
+  display: flex;
+  gap: 10px; /* Add space between buttons */
+}
+
+.section-tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc; /* Add a bottom border for the tab container */
+}
+
+.section-tabs span {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold; /* Make the text bold */
+  position: relative; /* Position relative for the underline */
+}
+
+.section-tabs span.active::after {
+  content: '';
+  position: absolute;
+  bottom: -10px; /* Adjust the position of the underline */
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #242424; /* Color of the underline */
+}
+
+.cards-section {
+  margin-top: 1px;
+}
+
+.cards-section h2 {
+  font-size: 1.5rem; /* Increased font size */
+  margin-bottom: 10px;
+}
+
+/* Modal styles */
+.edit-modal, .addpost-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.edit-modal-content, .addpost-modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.close-modal {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.edit-modal-body, .addpost-modal-body {
+  margin-top: 30px;
+}
+
+.edit-field, .addpost-field {
+  margin-bottom: 20px;
+}
+
+.edit-field label, .addpost-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.edit-field input, .edit-field textarea, .addpost-field input, .addpost-field select, .addpost-field textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.edit-field textarea, .addpost-field textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.addpost-field ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.addpost-field ul li {
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.addpost-modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  max-height: 80vh; /* Adjust the maximum height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Order styles */
+.new-orders-section, .previous-orders-section {
+  margin-bottom: 20px;
+  max-width: 700px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.order-container {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #242424;
+  background-color: #ebebeb;
+}
+
+.order-container:hover {
+  background-color: #e0e0e0;
+}
+
+.order-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.order-popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.close-order-popup {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.sample-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sample-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sample-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.sample-item-name {
+  font-weight: bold;
+}
+
+/* Add styles for the confirmation button */
+.order-popup-content .btn--primary {
+  margin-top: 20px;
+}
+
+/* Add styles for the call and chat icons */
+.order-popup-content i {
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+/* Style for copying location */
+.order-popup-content p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* Style for copying location icon */
+.order-popup-content i.fa-copy {
+  margin-left: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #007bff; /* Change the color to blue */
+}
+
+

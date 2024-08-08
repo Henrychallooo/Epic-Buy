@@ -1,0 +1,229 @@
+.navbar {
+  background: #cc0000;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  max-width: 1500px;
+}
+
+.navbar-logo {
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 340px;
+  margin-top: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 47px; /* Adjust the height as needed */
+  justify-content: center;
+  display: block; /* Ensure the image is a block element */
+  margin: 0 auto; 
+  margin-bottom: 20px; 
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 40px;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  justify-content: end;
+  margin-right: -600px;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-links {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  position: relative;
+}
+
+.nav-links .fa-search {
+  margin-left: 8px;
+  font-size: 1rem; /* Adjust the size as needed */
+  color: inherit; /* Inherit the color from the link */
+}
+
+/* Style for the count */
+.checkout-count {
+  position: absolute;
+  top: 0;
+  left: calc(100% + -5px);
+  transform: translate(-50%, 80%);
+  background-color: #cc0000; /* Example background color */
+  color: #ffffff; /* Example text color */
+  padding: 2px 7px;
+  border-radius: 100%;
+  font-size: 13px;
+  font-weight: bold; /* Set the count value to bold */
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid #ff0000;
+  transition: all 0.2s ease-out;
+}
+
+
+.fa-bars {
+  color: #242424;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .navbar {
+    background: #ffffff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #1b1b1b;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    color: #ffffff;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0;
+  }
+
+  .checkout-count {
+    position: absolute;
+    top: 0;
+    left: 285px;
+    transform: translate(-50%, 80%);
+    background-color: #e40000; /* Example background color */
+    color: #fff; /* Example text color */
+    padding: 2px 7px;
+    border-radius: 100%;
+    font-size: 12px;
+    font-weight: bold; /* Set the count value to bold */
+  }
+
+  .navbar-logo {
+    position: absolute;
+    margin-top: -20px;
+    top: 0;
+    left: 10px;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icon {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 18rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #000000;
+    font-size: 2rem;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+
+  .nav-links.btn--outline {
+    border: 1px solid #242424;
+    background: transparent;
+    color: #242424;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+  }
+  
+  .nav-links.btn--outline:hover {
+    background: #242424;
+    color: #ffffff;
+    font-size: 0.9rem;
+    transition: all 0.2s ease-out;
+  }
+}
