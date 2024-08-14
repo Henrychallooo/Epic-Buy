@@ -10,8 +10,8 @@ The rise of the internet has transformed the way we shop, leading to the rapid g
 
 ## Developers:
 This project was developed as part of the Final Year Project (FYP) at the University of Dar es Salaam (UDSM) by 
-### - Henry Challo
-### - Fredrick Koka
+- *Henry Challo*
+- *Fredrick Koka*
 
 
 ## Table of Contents
