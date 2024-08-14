@@ -74,6 +74,8 @@ We welcome contributions! Please follow these steps:
 ### User Interfaces
 The User Interface of Epic Buy consists of several key pages:
 - **Sign-Up/Sign-In Pages:** Allow users to register and log in to the system.
+![EpicBuy](UI-screenshots/2.png)
+![EpicBuy](UI-screenshots/3.png)
 - **Buy Page:** Enables buyers to browse products, view details, and add items to their pay list.
 - **Pay Page:** Manages orders, tracks delivery, and provides purchase history.
 - **Sell Page:** Allows sellers to post products, manage orders, and request delivery services.
