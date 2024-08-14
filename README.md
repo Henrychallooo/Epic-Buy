@@ -12,13 +12,13 @@ This project was developed as part of the Final Year Project (FYP) at the Univer
 
 ## Table of Contents
 - [Project Gap](#project-gap)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 - [System Implementation](#system-implementation)
   - [Frontend Implementation](#frontend-implementation)
   - [Backend Implementation](#backend-implementation)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
 
 
 ## Project Gap
@@ -26,29 +26,6 @@ Epic Buy addresses gaps in traditional online shopping platforms by offering:
 - A Shopping Assistant Chatbot for personalized product recommendations and comparisons based on conversations.
 - An in-app local delivery feature for direct communication between sellers and delivery drivers.
 - A simple and intuitive user interface designed to support users of various demographics.
-
-
-## System Implementation
-
-### User Interfaces
-The User Interface of Epic Buy consists of several key pages:
-- **Sign-Up/Sign-In Pages:** Allow users to register and log in to the system.
-- **Buy Page:** Enables buyers to browse products, view details, and add items to their pay list.
-- **Pay Page:** Manages orders, tracks delivery, and provides purchase history.
-- **Sell Page:** Allows sellers to post products, manage orders, and request delivery services.
-- **Driver Page:** Enables drivers to accept delivery requests and track routes.
-- **Discover Page:** Allows buyers to discover new products and interact with the Shopping Assistant Chatbot.
-
-### Backend Implementation
-The backend implementation involves data management and server-side functions essential for the online shopping experience, including handling user authentication, processing orders, and managing product listings.
-
-## Technologies Used
-- **Frontend:** ReactJS, HTML, CSS, JavaScript
-- **Backend:** JavaScript
-- **Database:** PostgreSQL
-- **UI Design:** Figma
-- **APIs:** Google Maps API, Firebase Authentication API
-- **Version Control:** Git
 
 ## Installation
 
@@ -90,6 +67,29 @@ We welcome contributions! Please follow these steps:
 3. Commit your changes (`git commit -m 'Add new feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a pull request.
+
+
+## System Implementation
+
+### User Interfaces
+The User Interface of Epic Buy consists of several key pages:
+- **Sign-Up/Sign-In Pages:** Allow users to register and log in to the system.
+- **Buy Page:** Enables buyers to browse products, view details, and add items to their pay list.
+- **Pay Page:** Manages orders, tracks delivery, and provides purchase history.
+- **Sell Page:** Allows sellers to post products, manage orders, and request delivery services.
+- **Driver Page:** Enables drivers to accept delivery requests and track routes.
+- **Discover Page:** Allows buyers to discover new products and interact with the Shopping Assistant Chatbot.
+
+### Backend Implementation
+The backend implementation involves data management and server-side functions essential for the online shopping experience, including handling user authentication, processing orders, and managing product listings.
+
+## Technologies Used
+- **Frontend:** ReactJS, HTML, CSS, JavaScript
+- **Backend:** JavaScript
+- **Database:** PostgreSQL
+- **UI Design:** Figma
+- **APIs:** Google Maps API, Firebase Authentication API
+- **Version Control:** Git
 
 
 ---
