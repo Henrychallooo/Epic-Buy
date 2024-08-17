@@ -1,4 +1,4 @@
-<img src="src/images/logo.png" alt="Logo" width="300" />
+<img src="src/images/logo.png" alt="Logo" width="100" />
 
 
 This project presents a modified online shopping application that adds innovative features to
