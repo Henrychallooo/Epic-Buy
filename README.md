@@ -1,4 +1,5 @@
-![EpicBuy](src/images/logo.png)
+<img src="src/images/logo.png" alt="Logo" width="300" />
+
 
 
 ![Buy page](UI-screenshots/1.png)
