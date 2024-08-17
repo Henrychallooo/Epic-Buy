@@ -4,10 +4,14 @@
 This project presents a modified online shopping web application that adds innovative features to
 enhance the efficiency and user experience in buying and selling goods online. 
 
-Keyimprovements over traditional platforms include a Shopping Assistant Chatbot offering
-personalized support through products recommendations and comparisons to help buyers in
-making informed purchasing decisions, an in-app delivery feature for simplified requesting and
-tracking of local deliveries, and a user-friendly interface to support users of all demographics.
+Key improvements over traditional platforms include 
+
+- A Shopping Assistant Chatbot offering personalized support through products recommendations and comparisons to help buyers in
+making informed purchasing decisions.
+
+- In-app local delivery feature for simplified requesting tracking of local deliveries.
+- 
+- A user-friendly interface to support users of all demographics.
 
 These enhancements aim to significantly improve the online shopping experience by providing
 convenience, reliability, and personalized assistance at every stage of the shopping process
