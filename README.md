@@ -10,11 +10,12 @@ Key improvements over traditional platforms include
 making informed purchasing decisions.
 
 - In-app local delivery feature for simplified requesting tracking of local deliveries.
-- 
+
 - A user-friendly interface to support users of all demographics.
 
 These enhancements aim to significantly improve the online shopping experience by providing
 convenience, reliability, and personalized assistance at every stage of the shopping process
+
 
 
 ![Buy page](UI-screenshots/1.png)
