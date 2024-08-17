@@ -1,7 +1,14 @@
 <img src="src/images/logo.png" alt="Logo" width="300" />
 
 
-The rise of the internet has transformed the way we shop, leading to the rapid growth of online shopping platforms in Tanzania, Africa and world-wide. This project "Epic Buy" responds to this evolution by introducing advanced features, including a Shopping Assistant Chatbot and in-app delivery services. The Shopping Assistant helps users make informed purchasing decisions by answering questions, providing comparisons, and recommending products based on conversations. The in-app local delivery feature enables drivers to register and receive delivery requests directly from sellers to buyers, and a user-friendly interface. These enhancements aim to improve the online shopping experience by providing convenience, reliability, and personalized assistance.
+This project presents a modified online shopping application that adds innovative features to
+enhance the efficiency and user experience in buying and selling goods online. Key
+improvements over traditional platforms include a Shopping Assistant Chatbot offering
+personalized support through products recommendations and comparisons to help buyers in
+making informed purchasing decisions, an in-app delivery feature for simplified requesting and
+tracking of local deliveries, and a user-friendly interface to support users of all demographics.
+These enhancements aim to significantly improve the online shopping experience by providing
+convenience, reliability, and personalized assistance at every stage of the shopping process
 
 
 ![Buy page](UI-screenshots/1.png)
