@@ -1,5 +1,4 @@
-
-# Epic Buy - Online Shopping Web Application
+![EpicBuy](src/images/logo.png)
 
 
 ![Buy page](UI-screenshots/1.png)
