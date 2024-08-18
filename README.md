@@ -1,4 +1,4 @@
-<img src="UI-screenshots/24.png" alt="Logo" width="100" />
+<img src="src/assets/logo.png" alt="Logo" width="100" />
 
 
 This project presents a modified online shopping web application that adds innovative features to
