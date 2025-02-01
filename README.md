@@ -4,7 +4,7 @@
 This project presents a modified online shopping web application that adds innovative features to
 enhance the efficiency and user experience in buying and selling goods online. 
 
-Key improvements over traditional platforms include 
+Key improvements over traditional platforms include: 
 
 - A Shopping Assistant Chatbot offering personalized support through products recommendations and comparisons to help buyers in
 making informed purchasing decisions.
