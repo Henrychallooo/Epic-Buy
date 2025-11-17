@@ -176,8 +176,7 @@ Allows buyers to discover new products and interact with the Shopping Assistant 
 
 ## Technologies Used
 - **Frontend:** ReactJS, HTML, CSS, JavaScript
-- **Backend:** JavaScript
-- **Database:** PostgreSQL
+- **Backend:** Firebase
 - **UI Design:** Figma
 - **APIs:** Google Maps API, Firebase Authentication API
 - **Version Control:** Git
